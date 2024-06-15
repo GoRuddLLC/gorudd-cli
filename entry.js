@@ -15,6 +15,7 @@ program
 program
   .command('new <project_name>')
   .description('Creates a boilerplate for a new GoRudd template')
+  .action((options)=>{
     let PROJECT_NAME = options
     console.log("[ GoRudd ]\tCreating new template \""+PROJECT_NAME+"\"")
     let PROJECT_DIR = path.resolve('.') + "\\" + PROJECT_NAME
