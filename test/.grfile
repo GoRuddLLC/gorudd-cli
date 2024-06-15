@@ -1,0 +1,3 @@
+TEMPLATE=test
+VERSION=1.0.0
+ENTRY=main.js
